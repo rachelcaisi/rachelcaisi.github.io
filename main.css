@@ -22,6 +22,8 @@ ul {
     margin-top: 0;
     padding-left: 0;
     overflow: hidden;
+    background-color: #333;
+
   }
 
   li {
@@ -66,8 +68,12 @@ h1 {
     font-size:30px;
     color: #487;
     text-decoration: none;
+}
 
-
+h1 a:hover {
+    font-size:30px;
+    color: #A0D2DB;    
+    text-decoration: none;
 }
 
 h1 a:visited {
@@ -77,11 +83,6 @@ h1 a:visited {
 
 }
 
-h1 a:hover {
-    font-size:30px;
-    color: #A0D2DB;    
-    text-decoration: none;
-}
 
 h2 {
     font-size: 20px;
@@ -91,16 +92,18 @@ h2 {
     transition:.5s;
 
 }
+
+h2 a:hover {
+    font-size: 20px;
+    color: #A0D2DB;
+    text-decoration: none;
+
+}
+
 h2 a:visited {
     font-size: 20px;
     color: #487;    
     text-decoration: none;
 
-
-}
-h2 a:hover {
-    font-size: 20px;
-    color: #A0D2DB;
-    text-decoration: none;
 
 }
