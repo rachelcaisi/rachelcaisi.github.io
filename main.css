@@ -1,0 +1,101 @@
+html {
+    margin: 20px;
+}
+
+body {
+    color: #487;
+    font-weight: 300;
+    font-family: "Bebas Neue";
+    src: url(rachelcaisi.github.io/BebasNeue.otf);
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+/* NAV BAR */
+
+ul {
+    list-style-type: none;
+    margin-left: 200px;
+    padding-left: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    color: #474368;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+
+  }
+
+  li a:hover {
+    color: #A0D2DB;  
+    text-decoration: none;  
+    font-size: 20px;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+
+    transition: width 2s linear 1s;
+  }
+
+  li a:active {
+    color: #A0D2DB;
+  }
+
+  li a:visited {
+    color: #474368;
+    text-decoration: none;
+  }
+
+
+/* FONTS */
+
+h1 {    
+    font-size:30px;
+    color: #487;
+    text-decoration: none;
+
+
+}
+
+h1 a:visited {
+    color: #487;    
+    text-decoration: none;
+
+}
+
+h1 a:hover {
+    color: #A0D2DB;    
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 20px;
+    color: #487;
+    text-decoration: none;
+
+    transition:.5s;
+
+}
+h2 a:visited {
+    color: #474368;    
+    text-decoration: none;
+
+
+}
+h2 a:hover {
+    color: #A0D2DB;
+    text-decoration: none;
+
+}
