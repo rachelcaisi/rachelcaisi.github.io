@@ -16,14 +16,11 @@ img {
 }
 /* NAV BAR */
 
-ul {
+  ul {
     list-style-type: none;
     margin-left: 200px;
-    margin-top: 0;
     padding-left: 0;
     overflow: hidden;
-    background-color: #333;
-
   }
 
   li {
