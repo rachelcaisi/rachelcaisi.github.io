@@ -5,8 +5,14 @@ html {
 body {
     color: #474368;
     font-weight: 300;
-    font-family: "Bebas Neue", "Arial";
+    font-family: "Bebas Neue";
     src: url(rachelcaisi.github.io/BebasNeue.otf);
+}
+
+p {
+    color: #474368;
+    font-size: 23px;
+    font-family: "Arial";
 }
 
 img {
@@ -40,7 +46,7 @@ img {
   li a:hover {
     color: #A0D2DB;  
     text-decoration: none;  
-    font-size: 20px;
+    font-size: 25px;
 
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -68,6 +74,7 @@ h1 {
 }
 
  h1 a {
+    color: #474368;
     text-decoration: none;
 }
 h1 a:hover {
