@@ -83,7 +83,7 @@ h1 a:visited {
 
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     color: #474368;
 
     transition:.5s;
@@ -94,13 +94,11 @@ h2 a {
 }
 
 h2 a:hover {
-    font-size: 20px;
     color: #A0D2DB;
 
 }
 
 h2 a:visited {
-    font-size: 20px;
     color: #474368;   
 
 }
@@ -110,8 +108,7 @@ h2 a:visited {
     float: left;
     width: 50%;
   }
-  
-  /* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
