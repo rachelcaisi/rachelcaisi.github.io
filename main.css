@@ -85,19 +85,18 @@ h1 {
     text-decoration: none;
 }
 h1 a:hover {
-    font-size:30px;
+    font-size:35px;
     color: #A0D2DB;    
 }
 
 h1 a:visited {
-    font-size:30px;
+    font-size:35px;
     color: #474368;    
 
 }
 
-
 h2 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 150;
     color: #474368;
 
@@ -134,7 +133,7 @@ h2 a:visited {
 #slides {
     position:relative;
     height:500px;
-    width:750px;
+    width:800px;
     margin:0 auto;
 }
 
