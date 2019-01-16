@@ -70,7 +70,7 @@ img {
 /* FONTS */
 
 h1 {    
-    font-size:30px;
+    font-size:35px;
     color: #474368;
     margin-top: 0;
     margin-left:0;
@@ -94,9 +94,8 @@ h1 a:visited {
 
 h2 {
     font-size: 25px;
+    font-weight: 150;
     color: #474368;
-
-    transition:.5s;
 
 }
 h2 a {
@@ -126,6 +125,28 @@ h2 a:visited {
     clear: both;
   }
 
+/* INDEX PAGE PHOTOS */
+
+#slides {
+    position:relative;
+    height:600px;
+    width:500px;
+    margin:0 auto;
+}
+
+#slides img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  #cf img.top:hover {
+    opacity:0;
+  }
+  
 .navBar {
     overflow: hidden;
     position: fixed;
@@ -157,32 +178,4 @@ h2 a:visited {
 
 .main {
     margin-top: 30px;
-}
-
-.site-title {
-    overflow: hidden;
-    position: fixed;
-    top: 20px;
-    width: 100%;
-}
-
-.site-title a{
-    float: right;
-    display: block;
-    color: #474368;
-    text-align: center;
-    font-size: 25px;
-    padding: 14px 16px;
-    text-decoration: none;
-
-}
-
-.site-title a:hover {
-    color: #A0D2DB;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-
-    transition: width 2s linear 1s;
 }
