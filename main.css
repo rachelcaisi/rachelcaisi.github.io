@@ -158,3 +158,31 @@ h2 a:visited {
 .main {
     margin-top: 30px;
 }
+
+.site-title {
+    overflow: hidden;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+}
+
+.site-title a{
+    float: right;
+    display: block;
+    color: #474368;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.site-title a:hover {
+    color: #A0D2DB;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+
+    transition: width 2s linear 1s;
+}
