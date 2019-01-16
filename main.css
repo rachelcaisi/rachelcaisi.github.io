@@ -25,6 +25,7 @@ img {
 
   ul {
     list-style-type: none;
+    font-size: 23px;
     margin-left: 200px;
     margin-top: 0;
     padding-left: 0;
@@ -37,6 +38,7 @@ img {
 
   li a {
     color: #474368;
+    font-size: 23px;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -143,7 +145,7 @@ h2 a:visited {
     transition: opacity 1s ease-in-out;
   }
 
-  #slides img.top:hover {
+#slides img.top:hover {
     opacity:0;
   }
 
