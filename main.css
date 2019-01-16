@@ -65,9 +65,11 @@ img {
 h1 {    
     font-size:30px;
     color: #474368;
-    text-decoration: none;
 }
 
+ h1 a {
+    text-decoration: none;
+}
 h1 a:hover {
     font-size:30px;
     color: #A0D2DB;    
@@ -83,10 +85,12 @@ h1 a:visited {
 h2 {
     font-size: 20px;
     color: #474368;
-    text-decoration: none;
 
     transition:.5s;
 
+}
+h2 a {
+    text-decoration: none;
 }
 
 h2 a:hover {
@@ -100,3 +104,16 @@ h2 a:visited {
     color: #474368;   
 
 }
+
+/* PHOTOGRAPHY COLUMNS */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
