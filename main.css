@@ -129,8 +129,8 @@ h2 a:visited {
 
 #slides {
     position:relative;
-    height:600px;
-    width:500px;
+    height:500px;
+    width:600px;
     margin:0 auto;
 }
 
@@ -143,10 +143,10 @@ h2 a:visited {
     transition: opacity 1s ease-in-out;
   }
 
-  #cf img.top:hover {
+  #slides img.top:hover {
     opacity:0;
   }
-  
+
 .navBar {
     overflow: hidden;
     position: fixed;
