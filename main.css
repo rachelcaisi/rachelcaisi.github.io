@@ -33,6 +33,7 @@ img {
   }
 
   li {
+    font-size: 23px;
     float: right;
   }
 
@@ -60,11 +61,12 @@ img {
   }
 
   li a:active {
+    font-size: 23px;
     color: #A0D2DB;
   }
 
   li a:visited {
-    color: #487;
+    font-size: 23px;
     text-decoration: none;
   }
 
@@ -132,7 +134,7 @@ h2 a:visited {
 #slides {
     position:relative;
     height:500px;
-    width:600px;
+    width:750px;
     margin:0 auto;
 }
 
@@ -148,36 +150,3 @@ h2 a:visited {
 #slides img.top:hover {
     opacity:0;
   }
-
-.navBar {
-    overflow: hidden;
-    position: fixed;
-    top: 20px;
-    width: 100%;
-}
-
-.navBar a{
-    float: right;
-    display: block;
-    color: #474368;
-    text-align: center;
-    font-size: 25px;
-    padding: 14px 16px;
-    text-decoration: none;
-
-}
-
-.navBar a:hover {
-    color: #A0D2DB;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-
-    transition: width 2s linear 1s;
-}
-
-
-.main {
-    margin-top: 30px;
-}
